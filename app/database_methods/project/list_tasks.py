@@ -1,5 +1,4 @@
 from app.config.utilities import *
-import pymysql as mysql
 
 def list_tsk(nome_proj):
   connection_to_db = connect()

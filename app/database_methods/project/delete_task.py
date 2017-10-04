@@ -1,5 +1,4 @@
 from app.config.utilities import *
-import pymysql as mysql
 
 def delete_tsk(nome):
   connection_to_db = connect()

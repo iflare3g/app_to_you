@@ -1,5 +1,4 @@
 from app.config.utilities import *
-import pymysql as mysql
 
 def set_tsk_status(task,status):
     connection = connect()

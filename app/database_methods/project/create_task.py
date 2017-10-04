@@ -1,5 +1,4 @@
 from app.config.utilities import *
-import pymysql as mysql
 
 def create_task(name,project):
   connection_to_db = connect()
